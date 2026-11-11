@@ -1,0 +1,13 @@
+# Run outputs and eval reports (may contain real metadata when run on real input)
+out/
+eval/reports/
+# Real inputs never go into the repo
+data/
+*.describe.txt
+# Secrets
+.env
+.env.*
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
